@@ -1,6 +1,4 @@
-//const Pessoa = require('./pessoa')
-import Pessoa from './pessoa.js';
-import './modulos/moduloA';
+import Pessoa from "./pessoa.js";
 
 const atendente = new Pessoa();
 

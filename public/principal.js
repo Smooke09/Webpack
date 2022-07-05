@@ -9,13 +9,23 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/assets/css/estilo.css?c1e7":
+/*!***********************************!*\
+  !*** ./src/assets/css/estilo.css ***!
+  \***********************************/
+/***/ (() => {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack://capitulo-webpack/./src/assets/css/estilo.css?");
+
+/***/ }),
+
 /***/ "./src/modulos/moduloA.js":
 /*!********************************!*\
   !*** ./src/modulos/moduloA.js ***!
   \********************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const moduloB = __webpack_require__(/*! ./moduloB */ \"./src/modulos/moduloB.js\");\n\nconsole.log(moduloB.saudacao());\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/modulos/moduloA.js?");
+eval("const moduloB = __webpack_require__(/*! ./moduloB */ \"./src/modulos/moduloB.js\");\nconsole.log(moduloB.saudacao());\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/modulos/moduloA.js?");
 
 /***/ }),
 
@@ -33,9 +43,10 @@ eval("module.exports = {\n\n  saudacao() {return 'Ola tudo bem com você?'}\n}\n
 /*!***********************!*\
   !*** ./src/pessoa.js ***!
   \***********************/
-/***/ ((module) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("module.exports = class Pessoa{\n  cumprimentar(){\n    return 'Bom dia'\n  }\n}\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/pessoa.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Pessoa)\n/* harmony export */ });\n/* harmony import */ var _modulos_moduloA__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modulos/moduloA */ \"./src/modulos/moduloA.js\");\n/* harmony import */ var _modulos_moduloA__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modulos_moduloA__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/css/estilo.css */ \"./src/assets/css/estilo.css?c1e7\");\n/* harmony import */ var _assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nclass Pessoa {\n  cumprimentar() {\n    return \"Bom dia\";\n  }\n}\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/pessoa.js?");
 
 /***/ }),
 
@@ -46,7 +57,7 @@ eval("module.exports = class Pessoa{\n  cumprimentar(){\n    return 'Bom dia'\n 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa.js */ \"./src/pessoa.js\");\n/* harmony import */ var _pessoa_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pessoa_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modulos_moduloA__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modulos/moduloA */ \"./src/modulos/moduloA.js\");\n/* harmony import */ var _modulos_moduloA__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modulos_moduloA__WEBPACK_IMPORTED_MODULE_1__);\n//const Pessoa = require('./pessoa')\n\n\n\nconst atendente = new (_pessoa_js__WEBPACK_IMPORTED_MODULE_0___default())();\n\nconsole.log(atendente.cumprimentar());\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/principal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa.js */ \"./src/pessoa.js\");\n\n\nconst atendente = new _pessoa_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\n\nconsole.log(atendente.cumprimentar());\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/principal.js?");
 
 /***/ })
 
